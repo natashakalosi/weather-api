@@ -1,17 +1,8 @@
-# weather-api
-A Python command-line tool that fetches live weather data for any city in the world using the Open-Meteo API.
+# Simple Weather App 
 
-### Key Features
-- **Smart Search:** Uses Geocoding to find coordinates (Latitude/Longitude) from a city name.
-- **Live Data:** Fetches real-time temperature from global weather stations.
-- **Robustness:** Includes error handling for network issues or invalid city names.
+A simple Python application that fetches the current temperature for any city in the world using the Open-Meteo API.
 
-### Built With
-- **Python**
-- **Requests Library:** For API communication.
-- **Open-Meteo API:** A free and reliable weather data source.
+!! Before running the script, make sure you have the `requests` library installed. You can install it by running:
 
-### How to Run
-1. Install requirements: `pip install requests`
-2. Run the script: `python weather.py`
-3. Enter any city name (e.g., "Athens", "London", "Tokyo").
+```bash
+pip install requests
